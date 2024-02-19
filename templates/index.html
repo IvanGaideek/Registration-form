@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>The list of registered</h2>
+    {% for item in all%}
+        <h5>User # {{ item.id }}</h5>
+        <table>
+            <tr>
+                <th>email</th>
+                <th>name</th>
+                <th>surname</th>
+                <th>age</th>
+                <th>speciality</th>
+            </tr>
+            <tr>
+                <td style="background-color: #a5caf8;">{{ item.email }}</td>
+                <td style="background-color: #a5caf8;">{{ item.name }}</td>
+                <td style="background-color: #a5caf8;">{{ item.surname }} </td>
+                <td style="background-color: #a5caf8;">{{ item.age }}</td>
+                <td style="background-color: #a5caf8;">{{ item.speciality }}</td>
+            </tr>
+        </table>
+    {% endfor %}
+{% endblock %}

@@ -1,0 +1,23 @@
+h4 {
+    color: #949493;
+    padding-left: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+   margin-right: 2%;
+   width: 80%;
+}
+
+th {
+   text-align: center;
+   background-color: grey;
+}
+
+td {
+   background-color: #a5caf8;
+   text-align: center;
+}
